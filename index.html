@@ -17,23 +17,15 @@ const messages = [
 "🔥 The Cheetah Head incident.",
 "🔓 Gatekeeping Cheetah Head is no longer possible.",
 "🎯 Olympiad students know. Cheetah Head.",
-"📚 Entering the Cheetah Head cinematic universe.",
-"💀 Bro discovered Cheetah Head.",
-"📂 Cheetah Head archives updated.",
-"🏆 Cheetah Head students are built different.",
-"⚔️ The Cheetah Head arc begins.",
-"🌌 The Cheetah Head universe expands.",
-"📖 Cheetah Head chapter unlocked.",
-"🧠 A Cheetah Head moment.",
-"🐆 Cheetah Head mentioned.",
-"🎒 Every olympiad student needs a Cheetah Head.",
-"🗃️ New entry added to the Cheetah Head archives."
+"📚 Entering the Cheetah Head cinematic universe."
 ];
 
 const msg = messages[Math.floor(Math.random() * messages.length)];
 
-window.location.href =
-`https://t.me/share/url?text=${encodeURIComponent(msg)}`;
+window.location.replace(
+  "https://t.me/share/url?text=" +
+  encodeURIComponent(msg)
+);
 </script>
 
 </body>
